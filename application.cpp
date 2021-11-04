@@ -72,7 +72,7 @@ GLuint loadShader(const char* vertexfilename, const char* fragmentfilename)
     glLinkProgram(program);
 
     
-    // debugShader(vertex_shader_id, fragment_shader_id, program);
+    debugShader(vertex_shader_id, fragment_shader_id, program);
     return program;
 }
 
